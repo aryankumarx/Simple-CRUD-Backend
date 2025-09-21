@@ -1,9 +1,12 @@
 # Node.js CRUD API with MongoDB
 
-A simple RESTful API built using Node.js, Express, and MongoDB with Mongoose.
+A simple RESTful API built using Node.js, Express, and MongoDB with Mongoose.  
 This project demonstrates how to perform basic CRUD operations (Create, Read, Update, Delete) on products.
 
- ## Project Structure
+---
+
+## 📂 Project Structure
+
 
     ├── controllers/              # Handles business logic for products         
     │ └── product.controller.js    
