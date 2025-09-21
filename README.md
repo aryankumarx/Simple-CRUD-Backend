@@ -17,6 +17,8 @@ This project demonstrates how to perform basic CRUD operations (Create, Read, Up
     ├── index.js                  # Server setup + DB connection                 
     ├── package.json
 
+---
+
 ### Features
 
 -Create new products 🆕
@@ -29,6 +31,7 @@ This project demonstrates how to perform basic CRUD operations (Create, Read, Up
 
 -Delete a product 🗑️
 
+---
 ### Tech Stack
 
 -Node.js (runtime)
@@ -41,6 +44,7 @@ This project demonstrates how to perform basic CRUD operations (Create, Read, Up
 
 -Nodemon (dev dependency)
 
+---
 ### Getting Started
 1️⃣ Clone repo
 ```bash
@@ -69,7 +73,7 @@ Base URL:
 ```
 http://localhost:3000/api/products
 ```
-
+---
 ### Routes:
 - **GET** `/` → Get all products  
 - **GET** `/:id` → Get a single product  
@@ -86,7 +90,7 @@ http://localhost:3000/api/products
   "price": 1499
 }
 ```
-
+---
 -📌 Future Improvements
 ```
 -Add user authentication (JWT)
@@ -94,6 +98,7 @@ http://localhost:3000/api/products
 -Dockerize the project
 -Add unit tests
 ```
+---
  # Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss.
