@@ -3,15 +3,15 @@
 A simple RESTful API built using Node.js, Express, and MongoDB with Mongoose.
 This project demonstrates how to perform basic CRUD operations (Create, Read, Update, Delete) on products.
 
-📂 Project Structure
-├── controllers/       # Handles business logic for products
-│   └── product.controller.js
-├── models/            # Mongoose schemas/models
-│   └── product.model.js
-├── routes/            # API endpoints
-│   └── product.route.js
-├── index.js           # Server setup + DB connection
-├── package.json
+ 📂 Project Structure
+    ├── controllers/              # Handles business logic for products
+    │ └── product.controller.js
+    ├── models/                   # Mongoose schemas/models
+    │ └── product.model.js
+    ├── routes/                   # API endpoints
+    │ └── product.route.js
+    ├── index.js                  # Server setup + DB connection
+    ├── package.json
 
 -⚡ Features
 
@@ -38,9 +38,10 @@ Mongoose (ODM)
 Nodemon (dev dependency)
 
 🚀 Getting Started
+```bash
 1️⃣ Clone repo
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/aryankumarx/Simple-CRUD-Backend.git
+cd Simple-CRUD-Backend
 
 2️⃣ Install dependencies
 npm install
@@ -73,7 +74,7 @@ DELETE	/:id	Delete a product
   "quantity": 10,
   "price": 1499
 }
-
+```
 -📌 Future Improvements
 
 -Add user authentication (JWT)
